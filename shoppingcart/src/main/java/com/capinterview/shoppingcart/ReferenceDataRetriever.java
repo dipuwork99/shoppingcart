@@ -17,6 +17,14 @@ public interface ReferenceDataRetriever {
 	 * @return The Price of the amount.
 	 */
 	public BigDecimal getPriceByCode(String code);
+	
+	/**
+	 * Gets the type of offer for a shopping item.
+	 * 
+	 * @param code The code of the item for which the offer has to be retreived.
+	 * @return The Class implmementing the offer.
+	 */
+	public String getOfferByCode(String code);
 
 	
 	

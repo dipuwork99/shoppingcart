@@ -45,6 +45,33 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
+				<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>com.capinterview.shoppingcart.CheckOut</mainClass>
+							<arguments>
+								<argument>Apple</argument>
+								<argument>Orange</argument>
+								<argument>Apple</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 			</plugins>
 	</build>
+	
+	
+	
+	
+	
 </project>

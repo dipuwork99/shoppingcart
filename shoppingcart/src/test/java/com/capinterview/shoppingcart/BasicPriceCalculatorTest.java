@@ -7,6 +7,11 @@ import java.math.BigDecimal;
 
 import org.junit.Test;
 
+/**
+ * Unit test for BasicPriceCalculator
+ * @author dipuchakrapani
+ *
+ */
 public class BasicPriceCalculatorTest {
 
 	@Test

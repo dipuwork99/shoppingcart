@@ -10,6 +10,12 @@ import java.util.Map;
 
 import org.junit.Test;
 
+/**
+ * Unit test for CheckOut
+ * 
+ * @author dipuchakrapani
+ *
+ */
 public class CheckOutTest {
 
 	ReferenceDataRetriever referenceDataRetriever = new BasicReferenceDataRetreiver();
